@@ -16,3 +16,4 @@ tf 用于tensorflow写的GAN文件
 
 ## DCGAN
 
+train on you own dataset: https://www.topbots.com/step-by-step-implementation-of-gans-part-2/
