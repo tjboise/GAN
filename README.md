@@ -10,6 +10,8 @@ tensorflow-gpu安装：https://zhuanlan.zhihu.com/p/157473379
 environment: 
 gan 用于pytorch写的GAN文件
 
+
+
 ---
 Borah
 
@@ -17,7 +19,7 @@ Login with:
 
 ssh -XC xxxxx@borah-login.boisestate.edu
 
-
+---
 
 
 
