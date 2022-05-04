@@ -1,3 +1,17 @@
+
+---
+### Time Table:
+
+
+- [ ] Crop all the raw images into 256 * 256 (by 05/04/2022)
+- [ ] classify the cropped images into Alligator, Block, Longitudinal, Transverse, Patching, Sealing, and Manhole
+- [ ] Use GAN to train each of kind to produce fake images
+- [ ] combine fake images and real images to train YOLO v5 model
+
+----
+
+
+
 #### Lab computer:
 ---
 
@@ -30,9 +44,3 @@ ssh -XC xxxxx@borah-login.boisestate.edu
 
 train on you own dataset: https://www.topbots.com/step-by-step-implementation-of-gans-part-2/
 
----
-
-- [ ] Crop all the raw images into 256 * 256
-- [ ] classify the cropped images into Alligator, Block, Longitudinal, Transverse, Patching, Sealing, and Manhole
-- [ ] Use GAN to train each of kind to produce fake images
-- [ ] combine fake images and real images to train YOLO v5 model
