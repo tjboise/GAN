@@ -3,10 +3,10 @@
 ### Time Table:
 
 
-- [ ] Crop all the raw images into 256 * 256 (by 05/04/2022)
+- [x] Crop all the raw images into 256 * 256 (by 05/04/2022)
 - [ ] classify the cropped images into Alligator, Block, Longitudinal, Transverse, Patching, Sealing, Manhole and no-defect image
 - [ ] Use GAN to train each of kind to produce fake images
-- [ ] combine fake images and real images to train YOLO v5 model
+- [ ] combine fake images and real images to train classification model: Resnet, ...
 - [ ] write paper
 
 ----
