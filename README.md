@@ -21,6 +21,9 @@ Data:
 
 --
 
+- classification
+
+
 | Categories  | Resnet50 |  VGG16  |  AlexNet  |       
 | ------------| ------------- |----|----|
 | Raw  |            |       |           |
