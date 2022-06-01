@@ -8,6 +8,18 @@
 - [ ] Use GAN to train each of kind to produce fake images
 - [ ] combine fake images and real images to train classification model: Resnet, ...
 - [ ] write paper
+---
+Data:
+
+
+| Categories  | Raw |  Tranditional annotation  |  DCGAN  |       
+| ------------| ------------- |----|----|
+| Transverse  |            |       |           |
+|   Longitudinal|             |   |        |
+|   Block|             |   |  |
+|   Alligator|             |   |        |
+
+
 
 ----
 
