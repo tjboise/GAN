@@ -16,9 +16,16 @@ Data:
 | ------------| ------------- |----|----|
 | Transverse  |            |       |           |
 |   Longitudinal|             |   |        |
-|   Block|             |   |  |
-|   Alligator|             |   |        |
+|   Block|             |              |       |
+|   Alligator|             |         |        |
 
+--
+
+| Categories  | Resnet50 |  VGG16  |  AlexNet  |       
+| ------------| ------------- |----|----|
+| Raw  |            |       |           |
+|   Raw + tranditional annotation|             |   |        |
+|   Raw + DCGAN|             |              |       |
 
 
 ----
