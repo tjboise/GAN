@@ -19,6 +19,8 @@ Data:
 |   Block|             |              |       |
 |   Alligator|             |         |        |
 
+note: DCGAN->https://github.com/t0nberryking/DCGAN256
+
 --
 
 - classification
