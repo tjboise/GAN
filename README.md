@@ -18,6 +18,10 @@ Data:
 |   Longitudinal|             |   |        |
 |   Block|             |              |       |
 |   Alligator|             |         |        |
+|   Patching|             |         |        |
+|   Sealing|             |         |        |
+|   Manhole|             |         |        |
+|   Normal|             |         |        |
 
 note: DCGAN->https://github.com/t0nberryking/DCGAN256
 
@@ -26,12 +30,12 @@ note: DCGAN->https://github.com/t0nberryking/DCGAN256
 - classification
 
 
-| Categories  | Resnet50 |  VGG16  |  AlexNet  |       
-| ------------| ------------- |----|----|
-| Raw  |            |       |           |
-|   Raw + tranditional annotation|             |   |        |
-|   Raw + DCGAN|             |              |       |
-
+| Categories  | Resnet50 |  VGG16  |  AlexNet  |  Resnet18|     
+| ------------| ------------- |----|----|---|
+| Raw  |            |       |           |  |
+|   Raw + tranditional annotation|             |   |        |  |
+|   Raw + GAN|             |              |       |  |
+|   Raw + DCGAN|             |              |       |  |
 
 ----
 
