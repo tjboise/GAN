@@ -60,3 +60,4 @@ tensorflow-gpu安装：https://zhuanlan.zhihu.com/p/157473379
 
 train on you own dataset: https://www.topbots.com/step-by-step-implementation-of-gans-part-2/
 
+https://github.com/Zeleni9/pytorch-wgan
