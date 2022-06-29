@@ -62,7 +62,9 @@ train on you own dataset: https://www.topbots.com/step-by-step-implementation-of
 
 https://github.com/Zeleni9/pytorch-wgan
 
-# transfet from annotate to label
+
+
+### transfer from annotate to label
 
 ```
 
