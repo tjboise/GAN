@@ -61,3 +61,19 @@ tensorflow-gpu安装：https://zhuanlan.zhihu.com/p/157473379
 train on you own dataset: https://www.topbots.com/step-by-step-implementation-of-gans-part-2/
 
 https://github.com/Zeleni9/pytorch-wgan
+
+# transfet from annotate to label
+
+```
+
+file_root = 'C:/Users/tjzha/Downloads/GAN_images-20220629T210557Z-001/GAN_images/annotate/'
+file_list = os.listdir(file_root)
+#filename='i3000.jpg'
+
+for file in file_list:
+    #print(file[:-4])
+    img = cv2.imread(file_root+file,cv2.IMREAD_GRAYSCALE)
+    ret2,th2 = cv2.threshold(img,230,255,cv2.THRESH_BINARY)
+    cv2.imwrite(file_root+file[:-4]+'.png',th2)
+    
+```
