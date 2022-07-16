@@ -4,8 +4,12 @@
 
 
 - [x] Crop all the raw images into 256 * 256 (by 05/04/2022)
-- [ ] classify the cropped images into **Alligator, Block, Longitudinal, Transverse**, Patching, Sealing, Manhole and no-defect image
+- [x] classify the cropped images into **Alligator, Block, Longitudinal, Transverse**
 - [ ] Use GAN to train each of kind to produce fake images
+    - GAN
+    - DCGAN
+    - wGAN
+    - cackGAN
 - [ ] combine fake images and real images to train classification model: Resnet, ...
 - [ ] write paper
 ---
@@ -18,10 +22,7 @@ Data:
 |   Longitudinal|             |   |        |
 |   Block|             |              |       |
 |   Alligator|             |         |        |
-|   Patching|             |         |        |
-|   Sealing|             |         |        |
-|   Manhole|             |         |        |
-|   Normal|             |         |        |
+
 
 note: DCGAN->https://github.com/t0nberryking/DCGAN256
 
